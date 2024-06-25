@@ -15,7 +15,6 @@ header {
     color: black;
     padding: 1em 0;
     text-align: center;
-    position: sticky;
     top: 0;
     background: #0047ab;
     z-index: 1000;
