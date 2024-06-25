@@ -50,3 +50,18 @@ section .headshot {
 section p {
     max-width: 600px;
 }
+
+/*Skill Section*/
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f3f3f3;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
