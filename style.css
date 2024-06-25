@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #0047ab; 
     color: #fff;
     padding: 10px 0;
     width: 100%;
@@ -42,7 +42,6 @@ section {
 }
 
 section .headshot {
-    border-radius: 50%;
     margin-bottom: 20px;
     width: 150px;
     height: 150px;
