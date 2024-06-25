@@ -1,5 +1,4 @@
-/* Add this to your style.css file */
-
+/*nav and header*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -65,7 +64,7 @@ section p {
     width: 150px;
     text-align: center;
 }
-
+/*skill ends*/
 /*Project Section*/
 .project-link {
     text-decoration: none;
@@ -98,4 +97,16 @@ section p {
 
 .project:hover {
     transform: scale(1.05);
+}
+/*Project ends*/
+/*footer begins*/
+footer {
+    background:#0047ab;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
