@@ -1,55 +1,49 @@
 html {
     background: #ffffff;
-}
+/* Add this to your style.css file */
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    margin: 40px;
-    padding: 40px;
-    color: #242424;
-    border-top: 10px solid #242424;
-    background: #ffffff;
-    min-height: 50em;
-}
-header {   
-    color: black;
-    padding: 1em 0;
-    text-align: center;
-    top: 0;
-    background: #0047ab;
-    z-index: 1000;
-}
-/*Navigation Style*/
-nav ul {
-    list-style-type: none;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #242424;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
-h1 {
-    font-size: 2.5em;
-    margin: 0;
+section .headshot {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
 }
 
-p {
-    line-height: 1.4em;
+section p {
+    max-width: 600px;
 }
-
-/*blog section*/
-
