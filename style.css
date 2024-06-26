@@ -136,6 +136,19 @@ section p {
     margin-top: 10px;
 }
 /*education ends*/
+/*experience*/
+.work-exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #0077b5;
+}
+.work-exp img {
+    width: 100px; 
+    height: 100px; 
+}
+/*Experience ENds*/
 /*footer begins*/
 footer {
     background:#0047ab;
