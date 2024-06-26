@@ -149,6 +149,22 @@ section p {
     height: 100px; 
 }
 /*Experience ENds*/
+/*Form*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form select, form textarea, form input, form button {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input, form select, form textarea {
+    padding: 8px;
+    box-sizing: border-box;
+}
+/*Form Ends*/
 /*footer begins*/
 footer {
     background:#0047ab;
