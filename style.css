@@ -99,6 +99,43 @@ section p {
     transform: scale(1.05);
 }
 /*Project ends*/
+/*Education*/
+/* Education Section */
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.education-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.education-item h3 {
+    margin-bottom: 5px;
+}
+
+.education-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.education-item ul li {
+    margin: 5px 0;
+}
+
+.education-item p {
+    margin-top: 10px;
+}
+/*education ends*/
 /*footer begins*/
 footer {
     background:#0047ab;
