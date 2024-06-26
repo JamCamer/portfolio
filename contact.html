@@ -6,7 +6,34 @@
     <link rel="stylesheet" href="style.css">
     <title>James Cameron Portfolio</title>
 </head>
+<!--Form-->
+<main class="two-column">
+    <form>
 
+        <label for="reason">Reason for contact:</label>
+        <select name="reason" id="reason">
+            <option value="">Select a reason...</option>
+            <option value="saying_hi">Saying Hi</option>
+            <option value="looking_for_contractor">Looking for a Contractor</option>
+            <option value="interested_in_Interview">Interested in an Interview</option>
+        </select>
+
+        <label>Name:
+          <input type="text">
+        </label> 
+
+        <label>Email Address:
+            <input type="email" name="email">
+        </label>
+        
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment"></textarea>
+
+        <button type="submit">Submit:</button>
+
+      </form>
+
+</main>
 <body>
     <header>
         <h1>James Cameron's Portfolio</h1>
